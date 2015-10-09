@@ -4,9 +4,6 @@ ruby '2.0.0'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.4'
 
-# Use Devise gem for user sign in/user sign up
-gem 'devise', '~> 3.5.2'
-
 # Use SCSS for stylesheets
 gem 'bootstrap-sass'
 gem 'sass-rails', '~> 5.0'
@@ -19,6 +16,9 @@ gem 'coffee-rails', '~> 4.1.0'
 
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
+
+# Use Devise gem for user sign in/user sign up
+gem 'devise', '~> 3.5.2'
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
